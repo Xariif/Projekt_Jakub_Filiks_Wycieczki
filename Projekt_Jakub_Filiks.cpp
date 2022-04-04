@@ -102,7 +102,6 @@ int main()
 	vector<Wycieczki>wszystkieWycieczki;
 	while (true)
 	{
-		
 	
 		cout << "1. Nowa wycieczka" << endl;
 		cout << "2. Dodaj osoby do wycieczki" << endl;
@@ -116,7 +115,7 @@ int main()
 		switch(x)
 		{		
 		case 1:
-			
+		    w = Wycieczki();
 			wszystkieWycieczki.push_back(w);
 			break;
 			
